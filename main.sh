@@ -6,14 +6,14 @@
 ## in the host's ~/.ssh/ folder.
 
 # host node information
-HOST_USER_NAME='john'
-HOST_IP='192.168.0.67'
+HOST_USER_NAME='zijian'
+HOST_IP='192.168.0.172'
 HOST_EXE_PATH='/home/'$HOST_USER_NAME'/recording'
 HOST_DATA_PATH=$HOST_EXE_PATH/data
 
 # remotely execute scripts on child nodes
 CHILD_USER_NAME='pi'
-CHILD_IP_POOL=("192.168.0.128" "192.168.0.147")
+CHILD_IP_POOL=("192.168.0.171")
 CHILD_EXE_PATH='/home/'$CHILD_USER_NAME'/recording'
 CHILD_DATA_PATH=$CHILD_EXE_PATH/data
 
